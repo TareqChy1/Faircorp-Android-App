@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1BF57C00"
+    tools:context=".activities.CreateRoomActivity">
+
+
+    <TextView
+        android:id="@+id/CurrentTemperature"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="440dp"
+        android:text="Current Temperature"
+        android:textColor="#0097A7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/CreateHeaterName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <TextView
+        android:id="@+id/Floor"
+        android:layout_width="128dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="200dp"
+        android:text="Floor"
+        android:textColor="#0097A7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/CreateHeaterName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <TextView
+        android:id="@+id/TargetTemperature"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="320dp"
+        android:text="Target Temperature"
+        android:textColor="#0097A7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/CreateHeaterName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <TextView
+        android:id="@+id/RoomName"
+        android:layout_width="128dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="76dp"
+        android:text="Room Name"
+        android:textColor="#0097A7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/CreateHeaterName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <EditText
+        android:id="@+id/CreateRoomName"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:hint="Room Name"
+        android:inputType="textAutoCorrect"
+        android:singleLine="true"
+        android:textColorHighlight="#0097A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CreateRoomFloor"
+        android:layout_width="327dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="Floor"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#0097A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateRoomName" />
+
+    <EditText
+        android:id="@+id/CreateTargetTemperature"
+        android:layout_width="339dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Target Temperature"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#0097A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateRoomFloor" />
+
+    <EditText
+        android:id="@+id/CreateCurrentTemperature"
+        android:layout_width="337dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="Current Temperature"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#0097A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateTargetTemperature" />
+
+    <Button
+        android:id="@+id/CreateRoom"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="72dp"
+        android:text="CREATE ROOM"
+        android:textColor="#0097A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateCurrentTemperature" />
+</androidx.constraintlayout.widget.ConstraintLayout>

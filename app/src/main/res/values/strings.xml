@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Faircorp</string>
+    <string name="menu_email">tareqfarhadbd@gmail.com</string>
+    <string name="menu_website">Website</string>
+    <string name="room">Room</string>
+    <string name="floor">Floor</string>
+    <string name="current_temperature">Current Temperature</string>
+    <string name="target_temperature">Target Temperature</string>
+    <string name="windows">Window</string>
+    <string name="heaters">Heater</string>
+    <string name="contact_us">Contact Us</string>
+</resources>

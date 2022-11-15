@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Faircorp" parent="Theme.AppCompat.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0097A7</item>
+        <item name="colorPrimaryVariant">#0097A7</item>
+        <item name="colorOnPrimary">#0097A7</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#0097A7</item>
+        <item name="colorSecondaryVariant">#0097A7</item>
+        <item name="colorOnSecondary">#0097A7</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#0097A7</item>
+        <item name="android:navigationBarColor">#0097A7</item>
+    </style>
+</resources>
